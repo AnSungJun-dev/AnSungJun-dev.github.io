@@ -4,9 +4,9 @@ title:  "클린코드 꿀팁"
 typora-copy-images-to: ..\images\2021-08-26
 ---
 
-## 클린코드
+# 클린코드
 
-### 클린코드란 무엇인가?
+## 클린코드란 무엇인가?
 
 좋은 코드는 팀원들이 읽기만해도 무엇인지 이해가 되고
 
@@ -15,7 +15,7 @@ typora-copy-images-to: ..\images\2021-08-26
 
 
 
-### 팁 첫번째 - 검색 가능한 이름을 써라.
+## 팁 첫번째 - 검색 가능한 이름을 써라.
 
 예를 들면 하루가 총 몇초인지 요구하는 함수가 있다면
 
@@ -36,7 +36,7 @@ setInterval(eatKimchi,SECONDS_IN_A_DAY)
 
 
 
-### 팁 두번째 - 함수명은 반드시 동사를 써라.
+## 팁 두번째 - 함수명은 반드시 동사를 써라.
 
 
 
@@ -68,7 +68,7 @@ const data = loadUserData();
 
 
 
-### 팁 세번째 - 몇개의 인수를 함수가 가져야할나
+## 팁 세번째 - 몇개의 인수를 함수가 가져야할나
 
 가장 좋은 숫자는 3개 혹은 그 이하라고 생각한다.
 
@@ -92,7 +92,7 @@ makePayment({
 
 
 
-### 팁 네번째 - boolean 값을 인수로 함수에 보내는 것을 최대한 방지하도록 하자
+## 팁 네번째 - boolean 값을 인수로 함수에 보내는 것을 최대한 방지하도록 하자
 
 ```javascript
 function sendMessage(text, isPrivate){
@@ -126,7 +126,7 @@ sendPrivateMessage("this is a secret")
 
 
 
-### 팁 다섯번째 - 짧은 변수명이나 축약어 사용을 피하자
+## 팁 다섯번째 - 짧은 변수명이나 축약어 사용을 피하자
 
 ```javascript
 allUsers.forEach((u,i) => {
